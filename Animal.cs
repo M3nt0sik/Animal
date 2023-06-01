@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animal
 {
-    abstract class Animal
+    abstract class Animals
     {
         public abstract void MakeNoise();
     }

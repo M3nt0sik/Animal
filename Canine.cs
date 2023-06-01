@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animal
 {
-    abstract class Canine:Animal
+    abstract class Canine:Animals
     {
         public bool BelongsToPack { get; protected set; } = false;
     }
