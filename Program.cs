@@ -14,14 +14,13 @@ internal class Program
 
         foreach (Animals animal in animals)
         {
-            if (animal is Hippo hippo)
+            animal.MakeNoise();
+            if (animal is ISwimmer hippo)
             {
-                hippo.MakeNoise();
                 hippo.Swim();
             }
-            else if(animal is Wolf wolf)
+            else if(animal is IPackHunter wolf)
             {
-                wolf.MakeNoise();
                 wolf.HuntInPack();
             }
         }

@@ -8,7 +8,7 @@ namespace Animal
 {
     interface IPackHunter
     {
-        void PackHunter();
+        void HuntInPack();
     }
     
     
